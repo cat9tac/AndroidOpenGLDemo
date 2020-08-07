@@ -36,15 +36,15 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.HandlerThread;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
 import android.util.Size;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import edu.wuwang.opengl.BaseActivity;
 import edu.wuwang.opengl.R;
@@ -271,7 +271,6 @@ public class Camera2Activity extends BaseActivity implements FrameCallback {
 
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     private class Camera2Renderer implements Renderer {
 
         CameraDevice mDevice;

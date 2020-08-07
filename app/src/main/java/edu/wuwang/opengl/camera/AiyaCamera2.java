@@ -26,8 +26,11 @@ import android.hardware.camera2.TotalCaptureResult;
 import android.os.Build;
 import android.os.Handler;
 import android.os.HandlerThread;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.app.ActivityCompat;
+
 import android.view.Surface;
 
 /**
