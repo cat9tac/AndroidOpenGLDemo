@@ -6,8 +6,6 @@
  */
 package edu.wuwang.opengl;
 
-import android.app.Activity;
-import android.app.IntentService;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -26,6 +24,7 @@ import edu.wuwang.opengl.render.Ball;
 import edu.wuwang.opengl.render.BallWithLight;
 import edu.wuwang.opengl.render.Cone;
 import edu.wuwang.opengl.render.Cube;
+import edu.wuwang.opengl.render.TwoCube;
 import edu.wuwang.opengl.render.Cylinder;
 import edu.wuwang.opengl.render.Oval;
 import edu.wuwang.opengl.render.Square;
@@ -72,6 +71,7 @@ public class ChooseActivity extends AppCompatActivity {
         add("彩色三角形", TriangleColorFull.class);
         add("正方形", Square.class);
         add("圆形", Oval.class);
+        add("两个正方体", TwoCube.class);
         add("正方体", Cube.class);
         add("圆锥", Cone.class);
         add("圆柱", Cylinder.class);
